@@ -12,3 +12,20 @@ page.addEventListener('DOMContentLoaded',()=>{
 })
 
 }
+
+var audio = new Audio("ponni.mp3")
+var isPlaying = false;
+
+function playsound() { 
+    if (audio.paused) {
+        audio.play(); 
+        document.getElementById("m1").innerHTML ="pause";
+        
+    }
+        
+    else {
+        audio.pause(); 
+        document.getElementById("m1").innerHTML ="play_arrow";
+    }
+        
+}
