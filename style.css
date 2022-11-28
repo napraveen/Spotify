@@ -177,9 +177,15 @@
 }
 
 .material-icons{
+
+}
+
+
+
+#m1{
     color: black;
     font-size: 25px;
-    margin-left: 110px;
+    margin-left: 100px;
     margin-top: 10px;
     position: relative;
     background-color: #1FDF64;
@@ -187,12 +193,22 @@
     opacity: 0;
 }
 
+#m2{
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+    position: relative;
+    background-color: #1FDF64;
+    border-radius: 50%;
+    opacity: 0;
+}
 
-#sg:hover .material-icons{
+#sg:hover #m1, #sg:hover #m2{
     opacity: 1;
 }
 
-.material-icons:hover{
+#m1:hover, #m2:hover{
     font-size: 27px;
     background-color: #59e48c;
+    cursor: pointer;
 }
