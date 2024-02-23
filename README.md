@@ -1,2 +1,4 @@
 # Spotify
-This is a Spotify clone using Html,Css and Javascript. So far, only front-end is done. Yet to complete Backend
+<p>This is a spotify Home page clone</p>
+<p>You can play music</p>
+<p>Tech Stack : Html, Css, Js</p>
